@@ -15,7 +15,7 @@ namespace MyProgram
             Markov<string> sample;
             
             // Change the Path info ( Will update this later )
-            var folder = new DirectoryInfo("C:/Users/omery/Desktop/Makrov/Markovw/MarkovChains/rest");
+            var folder = new DirectoryInfo("");
 
             string file = "Test.txt", dataFile = Path.Combine(folder.FullName, "Data.txt");
 
